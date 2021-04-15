@@ -11,27 +11,49 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Card" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="仙人掌1" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-LN-jKw" customClass="SharpImageView1" customModule="Card" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="324"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="仙人掌2" translatesAutoresizingMaskIntoConstraints="NO" id="tU4-0O-RQH" customClass="SharpImageView2" customModule="Card" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="560" width="390" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="駱駝" translatesAutoresizingMaskIntoConstraints="NO" id="l8Q-ka-dxU">
+                                <rect key="frame" x="150" y="316" width="240" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="水" translatesAutoresizingMaskIntoConstraints="NO" id="gaO-uy-4bD">
+                                <rect key="frame" x="-38" y="411" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water ! ! ! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGS-PJ-fmY">
+                                <rect key="frame" x="33" y="351" width="99" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="338" y="53"/>
+            <point key="canvasLocation" x="336.92307692307691" y="52.606635071090047"/>
         </scene>
     </scenes>
     <resources>
         <image name="仙人掌1" width="598" height="295"/>
+        <image name="仙人掌2" width="600" height="264"/>
+        <image name="水" width="360" height="360"/>
+        <image name="駱駝" width="359" height="371"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

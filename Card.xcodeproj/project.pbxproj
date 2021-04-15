@@ -14,6 +14,7 @@
 		74771FC626273EBF0034F808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74771FC526273EBF0034F808 /* Assets.xcassets */; };
 		74771FC926273EBF0034F808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74771FC726273EBF0034F808 /* LaunchScreen.storyboard */; };
 		74771FD12627438C0034F808 /* SharpImageView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74771FD02627438C0034F808 /* SharpImageView1.swift */; };
+		74771FD3262814A20034F808 /* SharpImageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74771FD2262814A20034F808 /* SharpImageView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		74771FC826273EBF0034F808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74771FCA26273EBF0034F808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74771FD02627438C0034F808 /* SharpImageView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView1.swift; sourceTree = "<group>"; };
+		74771FD2262814A20034F808 /* SharpImageView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				74771FBE26273EBD0034F808 /* SceneDelegate.swift */,
 				74771FC026273EBD0034F808 /* ViewController.swift */,
 				74771FC226273EBD0034F808 /* Main.storyboard */,
+				74771FD2262814A20034F808 /* SharpImageView2.swift */,
 				74771FD02627438C0034F808 /* SharpImageView1.swift */,
 				74771FC526273EBF0034F808 /* Assets.xcassets */,
 				74771FC726273EBF0034F808 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				74771FC126273EBD0034F808 /* ViewController.swift in Sources */,
 				74771FD12627438C0034F808 /* SharpImageView1.swift in Sources */,
 				74771FBD26273EBD0034F808 /* AppDelegate.swift in Sources */,
+				74771FD3262814A20034F808 /* SharpImageView2.swift in Sources */,
 				74771FBF26273EBD0034F808 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
